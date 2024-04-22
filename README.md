@@ -1,1 +1,1 @@
-# admission-prediction
+Initially, the code splits the dataset into training and testing sets using train_test_split and standardizes the features using MinMaxScaler. Then, it constructs a Sequential model with three dense layers, each with seven neurons and ReLU activation, except for the output layer, which has one neuron and uses linear activation for regression. The model is compiled with the Adam optimizer and mean squared error loss function. 
